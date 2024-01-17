@@ -58,7 +58,7 @@ public class que_5{
 
           for(Job job :jobs){
             double overallProgress = job.calculateOverallProgress();
-            System.out.println(jobList)
+            System.out.println("job" +job.title + ", Expected End date" +job.tasks.get(0),expectedEndDate + ",overallProgress" ))
           }
         }
     }
